@@ -3,14 +3,14 @@
 </script>
 
 <template>
-    <section id="home" class="px-12 bg-primary lg:px-36">
+    <section id="home" class="px-12 bg-primary lg:ps-36">
         <div class="container py-12 lg:py-24">
             <div class="flex flex-wrap space-y-6">
                 <div class="w-full self-center space-y-6 md:w-auto lg:basis-1/2">
                     <h1 class="block font-bold text-light text-center text-3xl md:text-6xl md:text-start">MUHAMMAD FATHUL HAFIDZ MUBAROK</h1>
                     <h2 class="font-normal text-light text-center md:text-start md:text-2xl">Software Engineer | Web Developer</h2>
                 </div>
-                <div class="lg:basis-1/4 lg:mx-auto">
+                <div class="lg:basis-1/4 lg:mx-auto lg:pb-4">
                     <img src="../../public/img/profile-pic-2.jpg" alt="Profile Pic" class="max-w-full mx-auto px-16 md:max-w-96 md:ps-0 lg:px-8">
                 </div>
                 <div class="w-full self-center space-y-6 md:w-auto lg:basis-1/2 ">
