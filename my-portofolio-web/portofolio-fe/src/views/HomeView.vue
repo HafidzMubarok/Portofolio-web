@@ -8,7 +8,7 @@
             <div class="flex flex-wrap justify-end space-y-6">
                 <div class="lg:basis-1/2 self-center space-y-6">
                     <div class="w-full self-center space-y-6 md:w-auto">
-                        <h1 class="block font-bold text-light text-center text-3xl md:text-6xl lg:text-start">MUHAMMAD FATHUL HAFIDZ MUBAROK</h1>
+                        <h1 class="block font-bold text-light text-center text-4xl md:text-6xl lg:text-start">MUHAMMAD FATHUL HAFIDZ MUBAROK</h1>
                         <h2 class="font-normal text-light text-center lg:text-start md:text-2xl">Software Engineer | Web Developer</h2>
                     </div>
                     <div class="w-full self-center space-y-6 md:w-auto">
