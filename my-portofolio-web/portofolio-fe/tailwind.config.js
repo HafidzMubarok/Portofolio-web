@@ -9,9 +9,9 @@ export default {
       colors: {
         transparent: 'transparent',
         current: 'currentColor',
-        'primary': '#082f49',
+        'primary': '#172554',
         'secondary': '#38bdf8',
-        'light': '#FAF5F5',
+        'light': '#f8fafc',
       },
     },
     screens: {
