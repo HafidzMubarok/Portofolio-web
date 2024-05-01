@@ -17,7 +17,7 @@
                     </div>
                 </div>
                 <div class="space-y-6 lg:mx-auto lg:pb-4 lg:basis-1/2">
-                    <img src="/public/img/profile-pic-2.png" alt="Profile Pic" class="max-w-full mx-auto px-16 md:max-w-96 md:ps-0 lg:px-8">
+                    <img src="/img/profile-pic-2.png" alt="Profile Pic" class="max-w-full mx-auto px-16 md:max-w-96 md:ps-0 lg:px-8">
                     <div class="space-x-6 text-light text-center">
                             <a href="#">
                                 <i class="fa-solid fa-envelope fa-xl"></i>
