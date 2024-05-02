@@ -11,7 +11,7 @@ export default {
         current: 'currentColor',
         'primary': '#172554',
         'secondary': '#38bdf8',
-        'light': '#f8fafc',
+        'light': '#f1f5f9',
       },
     },
     screens: {
