@@ -1,6 +1,6 @@
 <template>
     <section id="skills" class="bg-primary lg:py-8">
-        <div class="px-10 py-8 text-end space-y-4">
+        <div class="px-10 py-8 text-end space-y-4 lg:px-36 lg:mb-12">
             <h1 class="text-light font-bold text-2xl lg:text-3xl">Technology That I Usually Use</h1>
         </div>
         <div class="flex flex-col px-6 pb-8 space-y-4 md:items-center text-center lg:px-0 lg:flex-row lg:flex-wrap lg:space-x-4 lg:space-y-0 lg:justify-center">
