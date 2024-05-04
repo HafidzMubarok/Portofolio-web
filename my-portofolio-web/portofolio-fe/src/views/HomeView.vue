@@ -4,6 +4,7 @@
     import Experience from "../components/home/Experience.vue";
     import Skills from "../components/home/Skills.vue";
     import Education from "../components/home/Education.vue";
+    import Article from "../components/home/Article.vue";
 </script>
 
 <template>
@@ -12,4 +13,5 @@
     <Experience />
     <Skills />
     <Education />
+    <Article />
 </template>
