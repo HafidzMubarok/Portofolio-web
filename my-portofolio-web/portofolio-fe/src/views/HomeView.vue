@@ -5,6 +5,7 @@
     import Skills from "../components/home/Skills.vue";
     import Education from "../components/home/Education.vue";
     import Article from "../components/home/Article.vue";
+    import Feedback from "../components/home/Feedback.vue";
 </script>
 
 <template>
@@ -14,4 +15,5 @@
     <Skills />
     <Education />
     <Article />
+    <Feedback />
 </template>
