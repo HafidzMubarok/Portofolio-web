@@ -1,4 +1,5 @@
 <script setup>
+    import NavBar from "../components/NavBar.vue";
     import Hero from "../components/home/Hero.vue";
     import AboutMe from "../components/home/AboutMe.vue";
     import Experience from "../components/home/Experience.vue";
@@ -9,6 +10,7 @@
 </script>
 
 <template>
+    <NavBar />
     <Hero />
     <AboutMe />
     <Experience />
