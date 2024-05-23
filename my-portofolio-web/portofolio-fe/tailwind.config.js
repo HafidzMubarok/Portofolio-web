@@ -3,6 +3,7 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
+    "./node_modules/flowbite/**/*.js",
   ],
   theme: {
     extend: {
@@ -24,6 +25,8 @@ export default {
       Inter: ["Inter, sans-serif"],
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin'),
+  ],
 }
 
