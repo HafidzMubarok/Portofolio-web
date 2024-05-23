@@ -5,22 +5,22 @@
             <p class="text-primary text-base md:text-lg lg:text-xl">Job History</p>
         </div>
         <div
-            class="flex flex-col px-6 pb-8 space-y-4 md:flex-row md:flex-wrap md:space-x-4 md:space-y-0 md:justify-center">
-            <Card>
+            class="flex flex-col px-6 pb-8 space-y-4 md:flex-row md:space-x-4 md:space-y-0 md:justify-center">
+            <Card data-collapse-target="detail-history-card-1" controls="detail-history-card-1">
                 <h5 class="mb-2 text-xl font-bold leading-tight">PT Lapi Divusi</h5>
                 <p class="text-base">Web Developer</p>
                 <p class="font-light text-sm">November 2022 - July 2023</p>
-                <p class="mb-4 text-base truncate">
+                <p class="mb-4 text-base hidden" id="detail-history-card-1">
                     Have been working part-time and involved in the development of employee data management web
                     applications. Working using Laravel framework, Bootstrap, PostgreSQL database, GitLab version
                     control, and other supporting tools. other supporting tools.
                 </p>
             </Card>
-            <Card>
+            <Card data-collapse-target="detail-history-card-2" controls="detail-history-card-2">
                 <h5 class="mb-2 text-xl font-bold leading-tight">PT Lapi Divusi</h5>
                 <p class="text-base">Web Developer</p>
                 <p class="font-light text-sm">November 2022 - July 2023</p>
-                <p class="mb-4 text-base truncate">
+                <p class="mb-4 text-base hidden" id="detail-history-card-2">
                     Involved in the development of employee data management web applications, such as the creation of
                     features based on CRUD based features with Laravel and PostgreSQL technology.
                 </p>
@@ -59,11 +59,11 @@
                 class="mySwiper"
                 >
                 <swiper-slide>
-                    <Card>
+                    <Card data-collapse-target="detail-project-card-1" controls="detail-project-card-1">
                         <h5 class="mb-2 text-xl font-bold leading-tight">HRIS</h5>
                         <p class="text-base">Project of PT Lapi Divusi</p>
                         <p class="font-light text-sm">November 2022 - July 2023</p>
-                        <p class="mb-4 text-base truncate">
+                        <p class="mb-4 text-base hidden" id="detail-project-card-1">
                             Involved in the development of employee data management web applications, such as the
                             creation of
                             features based on CRUD based features with Laravel and PostgreSQL technology.
@@ -71,11 +71,11 @@
                     </Card>
                 </swiper-slide>
                 <swiper-slide>
-                    <Card>
+                    <Card data-collapse-target="detail-project-card-2" controls="detail-project-card-2">
                         <h5 class="mb-2 text-xl font-bold leading-tight">SI RUKUN</h5>
                         <p class="text-base">Final Project on Politeknik Negeri Bandung</p>
                         <p class="font-light text-sm">Maret 2023 - Desember 2024</p>
-                        <p class="mb-4 text-base truncate">
+                        <p class="mb-4 text-base hidden" id="detail-project-card-2">
                             Completed the development of cover letter and certificate management features, population
                             data
                             collection features, and user management features using Laravel, PHP, PostgreSQL, and
@@ -85,11 +85,11 @@
                     </Card>
                 </swiper-slide>
                 <swiper-slide>
-                    <Card>
+                    <Card data-collapse-target="detail-project-card-3" controls="detail-project-card-3">
                         <h5 class="mb-2 text-xl font-bold leading-tight">SI RUKUN</h5>
                         <p class="text-base">Final Project on Politeknik Negeri Bandung</p>
                         <p class="font-light text-sm">Maret 2023 - Desember 2024</p>
-                        <p class="mb-4 text-base truncate">
+                        <p class="mb-4 text-base hidden" id="detail-project-card-3">
                             Completed the development of cover letter and certificate management features, population
                             data
                             collection features, and user management features using Laravel, PHP, PostgreSQL, and
