@@ -5,7 +5,7 @@
         <a href="#" class="md:hidden">
           <i class="fa-solid fa-bars"></i>
         </a>
-        <ul class="sm:hidden md:flex md:items-center md:space-x-8 uppercase">
+        <ul class="sm:hidden md:flex md:items-center md:space-x-16 uppercase">
           <li><a href="#about-me">About Me</a></li>
           <li><a href="#history">History</a></li>
           <li><a href="#technology">Technology</a></li>
@@ -15,7 +15,7 @@
                 text-primary shadow-primary-3 transition duration-150 ease-in-out hover:bg-primary-accent-300 hover:shadow-primary-2 
                 focus:bg-primary-accent-300 focus:shadow-primary-2 focus:outline-none focus:ring-0 active:bg-primary-600 
                 active:shadow-primary-2" data-twe-ripple-init data-twe-ripple-color="light">
-                <i class="fa-solid fa-reply"></i> Feedback
+                <i class="fa-solid fa-reply me-0.5"></i> Feedback
           </a></li>
         </ul>
       </div>
