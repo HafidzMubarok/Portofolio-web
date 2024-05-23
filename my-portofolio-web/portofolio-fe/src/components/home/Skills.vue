@@ -1,5 +1,5 @@
 <template>
-    <section id="skills" class="bg-primary lg:py-8">
+    <section id="technology" class="bg-primary lg:py-8">
         <div class="px-10 py-8 text-end space-y-4 lg:px-36 lg:mb-12">
             <h1 class="text-light font-bold text-2xl lg:text-3xl">Technology That I Usually Use</h1>
         </div>

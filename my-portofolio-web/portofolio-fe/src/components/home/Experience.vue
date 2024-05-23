@@ -1,5 +1,5 @@
 <template>
-    <section id="experience" class="bg-light lg:py-8">
+    <section id="history" class="bg-light lg:py-8">
         <div class="px-10 py-8 text-center space-y-4">
             <h1 class="text-primary font-bold text-2xl lg:text-3xl">My Experience and Job History</h1>
             <p class="text-primary text-base md:text-lg lg:text-xl">Job History</p>
