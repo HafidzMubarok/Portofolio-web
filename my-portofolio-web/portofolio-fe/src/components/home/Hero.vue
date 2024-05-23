@@ -9,7 +9,7 @@
                     </div>
                     <div class="w-full self-center space-y-6 md:w-auto">
                         <div class="text-center py-3 lg:text-start">
-                            <a href="#"
+                            <a href="#about-me"
                                 class="text-base font-semibold text-light bg-secondary rounded-md py-3 px-8 hover:shadow-lg hover:opacity-80">Explore
                                 <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
