@@ -4,28 +4,28 @@
             <h1 class="text-light font-bold text-2xl lg:text-3xl">Technology That I Usually Use</h1>
         </div>
         <div class="flex flex-col px-6 pb-8 space-y-4 md:items-center text-center lg:px-0 lg:flex-row lg:flex-wrap lg:space-x-4 lg:space-y-0 lg:justify-center">
-            <Card class="lg:max-w-xs">
+            <Card class="lg:max-w-xs" data-collapse-target="detail-skill-card-1" controls="detail-skill-card-1">
                 <i class="fa-brands fa-laravel text-7xl"></i>
                 <h5 class="text-primary text-xl font-bold leading-tight mb-5">Laravel</h5>
-                <p class="mb-4 text-base truncate">
+                <p class="mb-4 text-base hidden" id="detail-skill-card-1">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, modi aliquam nemo culpa soluta
                     amet. Libero esse commodi ab labore sint necessitatibus nobis blanditiis. Id at vero similique eaque
                     architecto.
                 </p>
             </Card>
-            <Card class="lg:max-w-xs">
+            <Card class="lg:max-w-xs"  data-collapse-target="detail-skill-card-2" controls="detail-skill-card-2">
                 <i class="fa-brands fa-php text-7xl"></i>
                 <h5 class="text-primary text-xl font-bold leading-tight mb-5">PHP</h5>
-                <p class="mb-4 text-base truncate">
+                <p class="mb-4 text-base hidden" id="detail-skill-card-2">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, modi aliquam nemo culpa soluta
                     amet. Libero esse commodi ab labore sint necessitatibus nobis blanditiis. Id at vero similique eaque
                     architecto.
                 </p>
             </Card>
-            <Card class="lg:max-w-xs">
+            <Card class="lg:max-w-xs" data-collapse-target="detail-skill-card-3" controls="detail-skill-card-3">
                 <i class="fa-brands fa-node-js text-7xl"></i>
                 <h5 class="text-primary text-xl font-bold leading-tight mb-5">Node.js</h5>
-                <p class="mb-4 text-base truncate">
+                <p class="mb-4 text-base hidden" id="detail-skill-card-3">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, modi aliquam nemo culpa soluta
                     amet. Libero esse commodi ab labore sint necessitatibus nobis blanditiis. Id at vero similique eaque
                     architecto.
