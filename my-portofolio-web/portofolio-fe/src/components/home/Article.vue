@@ -33,7 +33,7 @@
                 class="mySwiper"
             >
                 <swiper-slide>
-                    <Card class="drop-shadow-lg">
+                    <Card class="drop-shadow-lg" btn-text="Read More">
                         <img src="/img/education-logo.svg" alt="education logo" class="max-h-40 w-screen pb-4">
                         <p class="text-base text-end">January 2024</p>
                         <h5 class="text-primary text-xl font-bold leading-tight mb-5">POLBAN Final Project Deadline Has Been
@@ -46,7 +46,7 @@
                     </Card>
                 </swiper-slide>
                 <swiper-slide>
-                    <Card class="drop-shadow-lg">
+                    <Card class="drop-shadow-lg" btn-text="Read More">
                         <img src="/img/education-logo.svg" alt="education logo" class="max-h-40 w-screen pb-4">
                         <p class="text-base text-end">January 2024</p>
                         <h5 class="text-primary text-xl font-bold leading-tight mb-5">POLBAN Final Project Deadline Has Been

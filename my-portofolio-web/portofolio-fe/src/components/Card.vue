@@ -7,7 +7,7 @@
                 focus:bg-primary-accent-300 focus:shadow-primary-2 focus:outline-none focus:ring-0 active:bg-primary-600 
                 active:shadow-primary-2" data-twe-ripple-init data-twe-ripple-color="light"
                 :data-collapse-toggle="dataCollapseTarget" :aria-controls="controls" aria-expanded="false">
-            Show More
+            {{ btnText }}
         </button>
     </div>
 </template>
@@ -18,6 +18,7 @@ import { ref } from "vue";
 defineProps({
     dataCollapseTarget: String,
     controls: String,
+    btnText: String,
 });
 </script>
 
