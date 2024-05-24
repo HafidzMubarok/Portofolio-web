@@ -1,5 +1,5 @@
 <template>
-    <section id="feedback" class="bg-primary lg:px-32 lg:pt-20 lg:pb-32">
+    <section id="feedback" class="bg-primary scroll-mt-8 snap-start lg:px-32 lg:pt-20 lg:pb-32">
         <div class="px-10 py-8 text-center space-y-4 lg:px-36 lg:pb-12">
             <h1 class="text-light font-bold text-2xl lg:text-3xl">Feel Free to Send Me Feedback</h1>
             <p class="text-light text-lg font-base">Your feedback will send to my email</p>

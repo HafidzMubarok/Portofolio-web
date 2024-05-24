@@ -1,5 +1,5 @@
 <template>
-    <section id="about-me" class="bg-primary lg:px-24 lg:py-8">
+    <section id="about-me" class="bg-primary scroll-mt-8 snap-start lg:px-24 lg:py-8">
         <div class="px-10 py-8 space-y-4">
             <h1 class="text-light font-bold text-2xl lg:text-3xl">About Me</h1>
             <p class="lg:text-lg text-light">Fresh graduate as a software engineer with experience in the field of

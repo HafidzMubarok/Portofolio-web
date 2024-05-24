@@ -1,5 +1,5 @@
 <template>
-    <section id="education" class="bg-light">
+    <section id="education" class="bg-light scroll-mt-8 snap-start">
         <div class="px-10 py-8 text-center space-y-4 lg:pt-20">
             <h1 class="text-primary font-bold text-2xl lg:text-3xl">My Education</h1>
         </div>

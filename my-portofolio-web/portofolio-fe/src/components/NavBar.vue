@@ -5,7 +5,7 @@
         <button data-collapse-toggle="navbar-default" type="button" class="px-6 text-end sm:flex sm:flex-row sm:justify-end md:hidden" aria-controls="navbar-default" aria-expanded="false">
           <i class="fa-solid fa-bars"></i>
         </button>
-        <div class="hidden md:flex uppercase" id="navbar-default">
+        <div class="hidden md:contents uppercase" id="navbar-default">
           <ul class="flex flex-col w-full space-y-8 py-8 absolute text-center bg-primary md:flex md:flex-row md:justify-center md:sticky md:items-center md:space-x-8 md:space-y-0 md:py-0 md:bg-inherit lg:space-x-16">
             <li><a href="#about-me">About Me</a></li>
             <li><a href="#history">History</a></li>

@@ -1,5 +1,5 @@
 <template>
-    <section id="article" class="bg-white">
+    <section id="article" class="bg-white scroll-mt-8 snap-start">
         <div class="px-10 py-8 text-start space-y-4 lg:pt-20 lg:px-32">
             <h1 class="text-primary font-bold text-2xl lg:text-3xl">My Recent Article</h1>
             <p class="text-primary text-lg font-base">Stay Informed!</p>
