@@ -6,7 +6,7 @@
         </div>
         <div
             class="flex flex-col px-6 pb-8 space-y-4 md:flex-row md:space-x-4 md:space-y-0 md:justify-center">
-            <Card data-collapse-target="detail-history-card-1" controls="detail-history-card-1" btn-text="Show Detail">
+            <Card data-collapse-target="detail-history-card-1" controls="detail-history-card-1" btnCollapse>
                 <h5 class="mb-2 text-xl font-bold leading-tight">PT Lapi Divusi</h5>
                 <p class="text-base">Web Developer</p>
                 <p class="font-light text-sm">November 2022 - July 2023</p>
@@ -16,7 +16,7 @@
                     control, and other supporting tools. other supporting tools.
                 </p>
             </Card>
-            <Card data-collapse-target="detail-history-card-2" controls="detail-history-card-2" btn-text="Show Detail">
+            <Card data-collapse-target="detail-history-card-2" controls="detail-history-card-2" btnCollapse>
                 <h5 class="mb-2 text-xl font-bold leading-tight">PT Lapi Divusi</h5>
                 <p class="text-base">Web Developer</p>
                 <p class="font-light text-sm">November 2022 - July 2023</p>
@@ -59,7 +59,7 @@
                 class="mySwiper"
                 >
                 <swiper-slide>
-                    <Card data-collapse-target="detail-project-card-1" controls="detail-project-card-1" btn-text="Show Detail">
+                    <Card data-collapse-target="detail-project-card-1" controls="detail-project-card-1" btnCollapse>
                         <h5 class="mb-2 text-xl font-bold leading-tight">HRIS</h5>
                         <p class="text-base">Project of PT Lapi Divusi</p>
                         <p class="font-light text-sm">November 2022 - July 2023</p>
@@ -71,7 +71,7 @@
                     </Card>
                 </swiper-slide>
                 <swiper-slide>
-                    <Card data-collapse-target="detail-project-card-2" controls="detail-project-card-2" btn-text="Show Detail">
+                    <Card data-collapse-target="detail-project-card-2" controls="detail-project-card-2" btnCollapse>
                         <h5 class="mb-2 text-xl font-bold leading-tight">SI RUKUN</h5>
                         <p class="text-base">Final Project on Politeknik Negeri Bandung</p>
                         <p class="font-light text-sm">Maret 2023 - Desember 2024</p>
@@ -85,7 +85,7 @@
                     </Card>
                 </swiper-slide>
                 <swiper-slide>
-                    <Card data-collapse-target="detail-project-card-3" controls="detail-project-card-3" btn-text="Show Detail">
+                    <Card data-collapse-target="detail-project-card-3" controls="detail-project-card-3" btnCollapse>
                         <h5 class="mb-2 text-xl font-bold leading-tight">SI RUKUN</h5>
                         <p class="text-base">Final Project on Politeknik Negeri Bandung</p>
                         <p class="font-light text-sm">Maret 2023 - Desember 2024</p>
