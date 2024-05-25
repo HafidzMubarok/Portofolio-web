@@ -4,7 +4,7 @@
             <h1 class="text-primary font-bold text-2xl lg:text-3xl">My Education</h1>
         </div>
         <div class="flex flex-col px-6 pb-8 space-y-4 text-left lg:px-32 lg:pt-6">
-            <Card class="md:max-w-full lg:max-w-full" data-collapse-target="detail-education-card-1" btn-text="Show Detail">
+            <Card class="md:max-w-full lg:max-w-full" data-collapse-target="detail-education-card-1" btnCollapse>
                 <img src="/img/education-logo.svg" alt="education logo" class="max-w-20 pb-4">
                 <h5 class="text-primary text-xl font-bold leading-tight mb-5">Politeknik Negeri Bandung</h5>
                 <p class="text-base">Bachelor Degree of Technology</p>
