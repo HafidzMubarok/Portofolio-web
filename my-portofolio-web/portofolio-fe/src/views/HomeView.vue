@@ -18,4 +18,7 @@
     <Education />
     <Article />
     <Feedback />
+    <div class="sticky text-end bottom-16 pe-16">
+        <a href="#home" class="rounded-full py-4 px-5 bg-secondary text-light text-center"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
 </template>
