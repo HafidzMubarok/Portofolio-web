@@ -42,68 +42,37 @@
                 :breakpoints="{
                     '768': {
                         slidesPerView: 'auto',
-                        spaceBetween: 10,
+                        spaceBetween: 20,
                         enabled: true,
-                        centeredSlides: true,
                         direction: 'horizontal',
                     },
                     '976': {
-                        slidesPerView: 'auto',
-                        spaceBetween: 20,
-                        enabled: true,
+                        slidesPerView: projectView,
+                        spaceBetween: 32,
                         centeredSlides: true,
+                        enabled: true,
                         direction: 'horizontal',
                     },
                 }"
                 :modules="modules"
                 class="mySwiper"
                 >
-                <swiper-slide>
-                    <Card data-collapse-target="detail-project-card-1" controls="detail-project-card-1" btnCollapse>
-                        <h5 class="mb-2 text-xl font-bold leading-tight">HRIS</h5>
-                        <p class="text-base">Project of PT Lapi Divusi</p>
-                        <p class="font-light text-sm">November 2022 - July 2023</p>
-                        <p class="mb-4 text-base hidden" id="detail-project-card-1">
-                            Involved in the development of employee data management web applications, such as the
-                            creation of
-                            features based on CRUD based features with Laravel and PostgreSQL technology.
-                        </p>
-                    </Card>
-                </swiper-slide>
-                <swiper-slide>
-                    <Card data-collapse-target="detail-project-card-2" controls="detail-project-card-2" btnCollapse>
-                        <h5 class="mb-2 text-xl font-bold leading-tight">SI RUKUN</h5>
-                        <p class="text-base">Final Project on Politeknik Negeri Bandung</p>
-                        <p class="font-light text-sm">Maret 2023 - Desember 2024</p>
-                        <p class="mb-4 text-base hidden" id="detail-project-card-2">
-                            Completed the development of cover letter and certificate management features, population
-                            data
-                            collection features, and user management features using Laravel, PHP, PostgreSQL, and
-                            Bootstrap
-                            development technologies.
-                        </p>
-                    </Card>
-                </swiper-slide>
-                <swiper-slide>
-                    <Card data-collapse-target="detail-project-card-3" controls="detail-project-card-3" btnCollapse>
-                        <h5 class="mb-2 text-xl font-bold leading-tight">SI RUKUN</h5>
-                        <p class="text-base">Final Project on Politeknik Negeri Bandung</p>
-                        <p class="font-light text-sm">Maret 2023 - Desember 2024</p>
-                        <p class="mb-4 text-base hidden" id="detail-project-card-3">
-                            Completed the development of cover letter and certificate management features, population
-                            data
-                            collection features, and user management features using Laravel, PHP, PostgreSQL, and
-                            Bootstrap
-                            development technologies.
+                <swiper-slide v-for="project in projectData">
+                    <Card :data-collapse-target="'detail-projec-card-'+project.id" :controls="'detail-projec-card-'+project.id" btnCollapse>
+                        <h5 class="mb-2 text-xl font-bold leading-tight">{{ project.title }}</h5>
+                        <p class="text-base">{{ project.subTitle }}</p>
+                        <p class="font-light text-sm">{{ project.date }}</p>
+                        <p class="mb-4 text-base hidden" :id="'detail-projec-card-'+project.id">
+                            {{ project.detail }}
                         </p>
                     </Card>
                 </swiper-slide>
             </swiper>
             <div
                 class="flex flex-col pb-8 md:hidden">
-                <a href="#" class="p-3 font-semibold text-center bg-primary text-light rounded-lg uppercase">Show
-                    More
-                    Project <i class="fa-solid fa-chevron-down"></i></a>
+                <a href="#" class="p-3 font-semibold text-center bg-primary text-light rounded-lg uppercase">
+                    Show More Project <i class="fa-solid fa-chevron-down"></i>
+                </a>
             </div>
         </div>
     </section>
@@ -128,7 +97,42 @@ export default {
     setup() {
       return {
         modules: [Pagination, Navigation],
+        projectData: [
+            {
+                id: 1,
+                title: "HRIS",
+                subTitle: "Project of PT Lapi Divusi",
+                date: "November 2022 - July 2023",
+                detail: "Involved in the development of employee data management web applications, such as the creation of features based on CRUD based features with Laravel and PostgreSQL technology."
+            },
+            {
+                id: 2,
+                title: "SI Rukun",
+                subTitle: "Final Project on Politeknik Negeri Bandung",
+                date: "March 2023 - December 2024",
+                detail: "Completed the development of cover letter and certificate management features, population data collection features, and user management features using Laravel, PHP, PostgreSQL, and Bootstrap development technologies."
+            },
+            {
+                id: 3,
+                title: "SI Rukun",
+                subTitle: "Final Project on Politeknik Negeri Bandung",
+                date: "March 2023 - December 2024",
+                detail: "Completed the development of cover letter and certificate management features, population data collection features, and user management features using Laravel, PHP, PostgreSQL, and Bootstrap development technologies."
+            },
+            {
+                id: 4,
+                title: "HRIS",
+                subTitle: "Project of PT Lapi Divusi",
+                date: "November 2022 - July 2023",
+                detail: "Involved in the development of employee data management web applications, such as the creation of features based on CRUD based features with Laravel and PostgreSQL technology."
+            },
+        ]
       };
+    },
+    computed: {
+        projectView() {
+            return this.projectData.length > 2 ? 3 : this.projectData.length > 1 ? 2 : 1;
+        }
     },
 };
 </script>
