@@ -19,42 +19,25 @@
                         slidesPerView: 'auto',
                         spaceBetween: 10,
                         enabled: true,
-                        centeredSlides: true,
                         direction: 'horizontal',
                     },
                     '976': {
-                        slidesPerView: 'auto',
+                        slidesPerView: articleView,
+                        spaceBetween: 32,
                         enabled: true,
-                        centeredSlides: true,
                         direction: 'horizontal',
                     },
                 }"
                 :modules="modules"
                 class="mySwiper"
             >
-                <swiper-slide>
+                <swiper-slide v-for="article in articleDatas" :key="article.id" class="py-2 px-2">
                     <Card class="drop-shadow-lg" btn-text="Read More">
                         <img src="/img/education-logo.svg" alt="education logo" class="max-h-40 w-screen pb-4">
-                        <p class="text-base text-end">January 2024</p>
-                        <h5 class="text-primary text-xl font-bold leading-tight mb-5">POLBAN Final Project Deadline Has Been
-                            Extended</h5>
-                        <p class="mb-4 text-base truncate">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi amet harum enim, iusto recusandae
-                            repudiandae delectus ad exercitationem corporis. Blanditiis dolore accusamus modi magnam veniam
-                            officia sint mollitia? Sequi, voluptatum.
-                        </p>
-                    </Card>
-                </swiper-slide>
-                <swiper-slide>
-                    <Card class="drop-shadow-lg" btn-text="Read More">
-                        <img src="/img/education-logo.svg" alt="education logo" class="max-h-40 w-screen pb-4">
-                        <p class="text-base text-end">January 2024</p>
-                        <h5 class="text-primary text-xl font-bold leading-tight mb-5">POLBAN Final Project Deadline Has Been
-                            Extended</h5>
-                        <p class="mb-4 text-base truncate">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi amet harum enim, iusto recusandae
-                            repudiandae delectus ad exercitationem corporis. Blanditiis dolore accusamus modi magnam veniam
-                            officia sint mollitia? Sequi, voluptatum.
+                        <p v-if="article.date" class="text-base text-end">{{ article.date }}</p>
+                        <h5 v-if="article.title" class="text-primary text-xl font-bold leading-tight mb-5">{{ article.title }}</h5>
+                        <p v-if="article.description" class="mb-4 text-base truncate">
+                            {{ article.description }}
                         </p>
                     </Card>
                 </swiper-slide>
@@ -87,7 +70,38 @@ export default {
     setup() {
       return {
         modules: [Pagination, Navigation],
+        articleDatas: [
+            {
+                id: 1,
+                date: "January 2024",
+                title: "POLBAN Final Project Deadline Has Been Extended",
+                description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi amet harum enim, iusto recusandae repudiandae delectus ad exercitationem corporis. Blanditiis dolore accusamus modi magnam veniam officia sint mollitia? Sequi, voluptatum."
+            },
+            {
+                id: 2,
+                date: "January 2024",
+                title: "POLBAN Final Project Deadline Has Been Extended",
+                description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi amet harum enim, iusto recusandae repudiandae delectus ad exercitationem corporis. Blanditiis dolore accusamus modi magnam veniam officia sint mollitia? Sequi, voluptatum."
+            },
+            {
+                id: 3,
+                date: "January 2024",
+                title: "POLBAN Final Project Deadline Has Been Extended",
+                description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi amet harum enim, iusto recusandae repudiandae delectus ad exercitationem corporis. Blanditiis dolore accusamus modi magnam veniam officia sint mollitia? Sequi, voluptatum."
+            },
+            {
+                id: 4,
+                date: "January 2024",
+                title: "POLBAN Final Project Deadline Has Been Extended",
+                description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi amet harum enim, iusto recusandae repudiandae delectus ad exercitationem corporis. Blanditiis dolore accusamus modi magnam veniam officia sint mollitia? Sequi, voluptatum."
+            },
+        ],
       };
+    },
+    computed: {
+        articleView() {
+            return this.articleDatas.length >= 2 ? 2 : 1;
+        }
     },
 };
 </script>
