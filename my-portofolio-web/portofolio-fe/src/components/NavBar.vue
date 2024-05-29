@@ -1,5 +1,5 @@
 <template>
-  <div class="sticky top-0 w-full bg-gradient-to-r from-sky-600 to-primary">
+  <div class="sticky top-0 w-full bg-gradient-to-r from-sky-600 to-primary z-10">
     <nav>
       <div class="flex flex-col font-semibold space-y-4 text-light text-2xl py-3 md:justify-center md:text-base md:px-6">
         <button data-collapse-toggle="navbar-default" type="button" class="px-6 text-end sm:flex sm:flex-row sm:justify-end md:hidden" aria-controls="navbar-default" aria-expanded="false">

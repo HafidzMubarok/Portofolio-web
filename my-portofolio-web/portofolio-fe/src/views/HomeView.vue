@@ -18,5 +18,5 @@
     <Education />
     <Article />
     <Feedback />
-    <a href="#home" class="rounded-full fixed w-fit bottom-16 right-16 py-4 px-6 bg-secondary text-light text-center"><i class="fa-solid fa-arrow-up"></i></a>
+    <a href="#home" class="rounded-full fixed w-fit bottom-16 right-16 py-4 px-6 bg-secondary text-light text-center z-10"><i class="fa-solid fa-arrow-up"></i></a>
 </template>
