@@ -7,7 +7,6 @@
         </button>
         <div class="hidden md:contents uppercase" id="navbar-default">
           <ul class="flex flex-col w-full space-y-8 py-8 absolute text-center bg-primary md:flex md:flex-row md:justify-center md:sticky md:items-center md:space-x-8 md:space-y-0 md:py-0 md:bg-inherit lg:space-x-16">
-            <li><a href="#">{{ props.section.currentSection }}</a></li>
             <li><a href="#about-me" :class="{ active: 'about-me' == props.section.currentSection }">About Me</a></li>
             <li><a href="#history" :class="{ active: 'history' == props.section.currentSection }">History</a></li>
             <li><a href="#technology" :class="{ active: 'technology' == props.section.currentSection }">Technology</a></li>
