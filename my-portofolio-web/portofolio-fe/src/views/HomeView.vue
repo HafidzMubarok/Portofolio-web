@@ -13,13 +13,18 @@ import Feedback from "../components/home/Feedback.vue";
 const currentSection = ref('');
 
 onMounted(() => {
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-            if (entry.intersectionRatio > 0) {
-                currentSection.value = entry.target.getAttribute('id')
-            }
-        })
-    })
+    const observer = new IntersectionObserver(
+        (entries) => {
+            entries.forEach((entry) => {
+                if (entry.intersectionRatio > 0) {
+                    currentSection.value = entry.target.getAttribute('id')
+                }
+            })
+        },
+        {
+            rootMargin: '-250px 0px -250px 0px',
+        }
+    )
 
     document.querySelectorAll('section').forEach((section) => {
         observer.observe(section)  
