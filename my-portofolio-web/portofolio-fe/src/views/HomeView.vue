@@ -28,7 +28,7 @@ onMounted(() => {
 </script>
 
 <template>
-    <NavBar />
+    <NavBar :section="{ currentSection }" />
     <Hero />
     <AboutMe />
     <Experience />
