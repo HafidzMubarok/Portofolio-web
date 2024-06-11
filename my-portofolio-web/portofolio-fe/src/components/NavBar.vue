@@ -42,9 +42,10 @@ onMounted(() => {
 <style scoped>
 .active{
   font-weight: bold;
-  background-color: #f1f5f9;
+  border-bottom: 2px solid #f1f5f9;
+  /* background-color: #f1f5f9;
   color: #172554;
   padding: 8px 24px 8px 24px;
-  border-radius: 4px;
+  border-radius: 4px; */
 }
 </style>
